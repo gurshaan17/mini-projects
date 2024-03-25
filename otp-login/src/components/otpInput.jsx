@@ -43,7 +43,7 @@ function handleKeyDown(e,index){
 }
 
 function checkOtp(){
-    //make some backend calls to verify the otp
+    //make some backend calls to verify the otp the user entered
 }
 return <div>
     {otp.map((value,index)=>{
