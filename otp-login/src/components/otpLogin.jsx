@@ -30,7 +30,7 @@ function onOtpSubmit(otp){
             <br /> <br />
             <button type="submit">Sumbit</button>
         </form>) : <div>
-            <span>Enter OTP</span>
+            <span>Generate OTP</span>
             <OtpInput length={6}  onOtpSubmit={onOtpSubmit}/>
             </div>}
     </div>
